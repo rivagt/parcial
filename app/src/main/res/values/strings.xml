@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">parcial</string>
+    <string name="welcome">Bienvenido</string>
+    <string name="txtvuser">Usuario:</string>
+    <string name="txtvpwd">Contraseña:</string>
+    <string name="txteuser">Ingrese usuario:</string>
+    <string name="txtepwd">Ingrese contraseña:</string>
+    <string name="txtvremember">Recordar inicio de sesion</string>
+    <string name="txtvforget">Olvide mi contraseña</string>
+    <string name="description_wel">Imagen de usuario en login</string>
+    <string name="button">Login</string>
+    <string name="textwelcome">¿Que hacemos hoy?</string>
+    <string name="txtcventas">Ventas</string>
+    <string name="txtcproductos">Productos</string>
+    <string name="txtcreportes">Reportes</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="formlbname">Nombre de producto</string>
+    <string name="formlbmarca">Marca de producto</string>
+    <string name="formlbprecio">Precio de producto</string>
+    <string name="formlbexist">Existencias</string>
+    <string name="formtname">Ingrese nombre de producto</string>
+    <string name="formtmarca">Ingrese marca de producto</string>
+    <string name="formtprecio">Ingrese precio de producto</string>
+    <string name="formtexist">Ingrese existencias de producto</string>
+</resources>

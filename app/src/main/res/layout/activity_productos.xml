@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:layout_height="match_parent"
+    android:background="@color/clrprimary"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/headfrag"
+            android:name="com.example.parcial.HeadFragment"
+            tools:layout="@layout/fragment_head">
+        </fragment>
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cardproductos"
+            android:name="com.example.parcial.CardProductos"
+            tools:layout="@layout/fragment_card_productos">
+        </fragment>
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spacform"
+            android:name="com.example.parcial.SpaceOperations"
+            tools:layout="@layout/fragment_space_operations">
+        </fragment>
+    </LinearLayout>
+
+</LinearLayout>

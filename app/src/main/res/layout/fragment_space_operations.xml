@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".SpaceOperations"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    android:background="@color/clrcard">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/layoutform"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:paddingStart="@dimen/largo"
+            android:paddingEnd="@dimen/largo">
+
+            <EditText
+                android:id="@+id/edtnamep"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="@string/formtname"
+                android:textColorHint="@color/clriconst"
+                android:layout_marginBottom="10dp"/>
+
+            <EditText
+                android:id="@+id/edtmarcap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="@string/formtmarca"
+                android:textColorHint="@color/clriconst"
+                android:layout_marginBottom="10dp"/>
+
+            <EditText
+                android:id="@+id/edtpreciop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="@string/formtprecio"
+                android:textColorHint="@color/clriconst"
+                android:layout_marginBottom="10dp"/>
+
+            <EditText
+                android:id="@+id/edtexistp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="@string/formtexist"
+                android:textColorHint="@color/clriconst"
+                android:layout_marginBottom="10dp"/>
+        </LinearLayout>
+        <ListView
+            android:id="@+id/lvprods"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </ListView>
+
+    </LinearLayout>
+
+
+
+</FrameLayout>

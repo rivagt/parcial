@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    tools:context=".Navbar"
+    android:background="@color/clrcard">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:weightSum="1">
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cardhead"
+            android:name="com.example.parcial.HeadFragment"
+            tools:layout="@layout/fragment_head"
+            android:layout_marginBottom="40dp">
+
+        </fragment>
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cardproductos"
+            android:name="com.example.parcial.CardProductos"
+            tools:layout="@layout/fragment_card_productos">
+        </fragment>
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cardsales"
+            android:name="com.example.parcial.CardVentas"
+            tools:layout="@layout/fragment_card_ventas">
+        </fragment>
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cardreports"
+            android:name="com.example.parcial.CardReportes"
+            tools:layout="@layout/fragment_card_reportes">
+        </fragment>
+    </LinearLayout>
+
+
+</FrameLayout>
